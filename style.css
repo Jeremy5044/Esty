@@ -1,0 +1,142 @@
+* {
+  border-box: box-sizing; }
+
+body {
+  height: 1000px;
+  width: 100%;
+  background-color: #F5F5F1;
+  margin: 0px; }
+
+.header {
+  width: 102%;
+  text-align: left;
+  margin: 0px auto;
+  box-sizing: border-box;
+  height: 80px;
+  padding-left: 18px;
+  padding-right: 18px;
+  background-color: #FFFFFF;
+  border: white solid;
+  border-bottom-color: lightgray; }
+
+.ebox1 {
+  width: 100%;
+  padding-left: 18px;
+  padding-right: 18px; }
+
+.ebox2 {
+  float: left;
+  width: 75px;
+  margin-right: 20px; }
+
+ul.account {
+  float: right;
+  margin: 0;
+  padding: 0;
+  width: 300px;
+  margin-right: 8px;
+  font-size: larger; }
+
+span {
+  font-size: 41px;
+  color: #F98645; }
+
+.sell {
+  border: 1px solid transparent;
+  height: auto;
+  margin-top: 10px;
+  display: block;
+  float: left;
+  padding: 8px;
+  line-height: 16px;
+  font-size: 14px;
+  text-decoration: none;
+  box-sizing: border-box;
+  color: #0192B5;
+  font-size: 17px; }
+
+li {
+  float: left;
+  position: relative;
+  list-style: none;
+  border: 0 none;
+  margin: 0;
+  padding: 0; }
+
+.button {
+  border: 1px solid;
+  margin-top: 8px;
+  /* font-size: 30px; */
+  color: #0192B5;
+  border-radius: 5px;
+  height: 36px;
+  width: 69px; }
+
+.can-header {
+  border-bottom: 1px solid #E1E3DF;
+  background-color: #FFF; }
+
+.can1 {
+  width: auto;
+  padding-left: 18px;
+  padding-right: 18px;
+  text-align: left;
+  margin: 0 auto; }
+
+.list {
+  line-height: 15px;
+  text-decoration: none;
+  padding: 0 3px;
+  color: #777;
+  font-size: 18px;
+  margin-left: 30px;
+  padding-top: 9px;
+  z-index: 0; }
+
+.canbody {
+  padding: 0px;
+  margin-left: 1;
+  margin-top: 0px;
+  margin-left: -22px;
+  width: 105%;
+  background: #FFF;
+  height: 36px; }
+
+.innersearchbox {
+  position: relative;
+  float: left;
+  width: 35%; }
+
+input {
+  margin-top: 26px;
+  height: 24px;
+  width: 220px; }
+
+.btt {
+  height: 31px;
+  width: 73px;
+  border-top-right-radius: 7px;
+  border-bottom-right-radius: 7px;
+  background-color: #3cb1cb; }
+
+div {
+  margin-top: 6px; }
+
+.sign {
+  font-size: 18px;
+  color: #4B92B5;
+  margin-top: 7px;
+  margin-left: 6px; }
+
+.box {
+  margin: 1px auto;
+  max-width: 800px;
+  height: 600px; }
+
+.space {
+  border: 1px double black;
+  padding: 5px;
+  width: 130px;
+  height: 130px;
+  float: left;
+  background: grey; }
