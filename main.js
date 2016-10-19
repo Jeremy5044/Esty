@@ -23,10 +23,16 @@ var shopName=object.Shop.shop_name;
 
 	var html = `
 
+
 <div class="box1">
 
 
 <div>
+<div class="hambox">
+<div class= "pic"><img class="ham" src ="./hamburger.png"> </div>
+<div class="pic2"><img class="ham2"src="./heart.png"></div>
+</div>
+
        <a href="${url}"><img src= "${img_url}"></a>
 
   <div class="box2">
@@ -56,6 +62,6 @@ console.log(top)
 var html = `
 <h3 class="top">Top categories for “whiskey”
                     </h3>`;
-$(".tit").append(html);
+$(".tit")
 
 }
