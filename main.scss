@@ -4,13 +4,12 @@
     border-box:box-sizing;
 }
 body{
-    height:1000px;
-    width:100%;
+    height:585px;
+    width:1425px;
     background-color:#F5F5F1;
     margin:0px;
 }
 .header{
-    width:102%;
     text-align: left;
     margin:0px auto;
     box-sizing:border-box;
@@ -22,11 +21,24 @@ body{
      border-bottom-color:lightgray;
 
 }
+.logo{
+        width: 100%;
+    height: 100%;
+    background: url(/assets/dist/images/etsylogo.20160609191624.png) transparent no-repeat center center;
+    -moz-background-size: 100%;
+    background-size: 100%;
+    color: #f45800;
+    margin-top: 2px;
+    text-indent: -10000em;
+    overflow: hidden;
+}
 
 .ebox1{
-    width:100%;
+    width:1389px;
     padding-left: 18px;
     padding-right: 18px;
+    height: 80px;
+
 }
 
 
@@ -46,7 +58,7 @@ ul.account{
     font-size: larger;
 
 }
-span{
+.logo{
     font-size: 41px;
     color:#F98645
 }
@@ -70,7 +82,7 @@ li{
     list-style: none;
     border: 0 none;
     margin: 0;
-    padding: 0;
+    padding: 3px;
 }
 .button{
             border: 1px solid;
@@ -91,30 +103,32 @@ li{
 
 }
 .can1{
-    width:auto;
+    width:1425px;
         padding-left: 18px;
     padding-right: 18px;
         text-align: left;
-    margin: 0 auto;
+    margin: -2px auto;
 }
 .list{
         line-height: 15px;
     text-decoration: none;
     padding: 0 3px;
     color: #777;
-    font-size: 18px;
-        margin-left: 30px;
+    font-size: 15px;
+        margin-right: 20px;
     padding-top: 9px;
-    z-index: 0;
+   
+    font-family: "Graphik Web","Arial","Helvetica",sans-serif;
 }
 .canbody{
          padding: 0px;
     margin-left: 1;
     margin-top: 0px;
     margin-left: -22px;
-    width: 105%;
+    width: 1425px;
     background: #FFF;
-    height: 36px;
+    height: 40px;
+    margin:0px;
 }
 
 .innersearchbox{
@@ -123,21 +137,25 @@ li{
     width: 35%;
 }
 
-input{
-        margin-top: 26px;
-    height: 24px;
-    width: 220px;
+.search{
+       padding:6px;
+    height: 21px;
+    width: 393px;
+    margin: 15px;
 }
 .btt{
-    height: 31px;
-    width: 73px;
-    border-top-right-radius: 7px;
-    border-bottom-right-radius: 7px;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    line-height: 17px;
+    height: 34px;
+    padding: 7px 15px 8px;
         background-color: #3cb1cb;
 }
-div{
-        margin-top: 6px;
+div.move{
+       
+       float: right;
 }
+
 .sign{
             font-size: 18px;
     color: #4B92B5;
@@ -145,17 +163,111 @@ div{
     margin-left: 6px;
 }
 .box{
-       margin: 1px auto;
-    max-width: 800px;
-    height: 600px;
+       margin: 20px auto;
+    max-width: 1100px;
+    height: 2050px;
+    float:right;
+
 }
 
 .space{
-     border: 1px double black;
-    padding: 5px;
-    width: 130px;
-    height: 130px;
+    padding: 5px 5px 20px;
+   white-space: nowrap;
     float: left;
-    background: grey;
+    overflow: hidden;
+    }
+.box1{
+    padding: 5px 5px 20px;
+    display: inline-block;
+    width: 250px;
+   white-space: nowrap;
+    // float: left;
+    overflow: hidden;
+    // float:right;
+}
+
+img {
+      width: 246.75px;
+    height: 205.47px;
+    margin-bottom: -5px;
+ 
+    border-radius: 4px;
+}
+.box2{
     
+    width:248px;
+    height: 55px;
+    background-color: #FFFFFF;
+}
+.side{
+        margin: 27px 5px 0px 35px;
+    height: 432px;
+    float: left;
+    width: 232px;
+    border:solid;
+    background:white;
+        border-radius: 3px;
+    background-color: #FFF;
+    border: 1px solid #E1E3DF;
+    border-bottom-color: #CBCCC9;
+    margin: 28px 44px 12px;
+        font-size: 13px;
+}
+.list1{
+    margin:0px;
+    padding-left: 0px;
+        color: #444
+}
+.list2{
+ display: list-item;
+    text-align: -webkit-match-parent;
+    padding-bottom: 3px;
+    padding-left: 6px;
+    font-size: 13px;
+    width: 206px;
+    height: 20px;
+}
+span{
+    font-family: "Graphik Web","Arial","Helvetica",sans-serif;
+        color: #0192B5;
+        list-style: none;
+            line-height: 1.4;
+}
+span.money{
+    color: #78c042
+   
+}
+.float{
+    
+margin: 0px;
+}
+.moneybox{
+    margin:0px;
+}
+.title{
+text-overflow: ellipsis;
+ margin-top: 0px;
+        overflow:hidden;
+            width: 106%;
+                font-size: 14px;
+                    font-family: "Graphik Web","Arial","Helvetica",sans-serif;
+}
+.shop{
+    margin:0px;
+        color: #9A9A9A;
+    font-size: 14px;
+    margin-bottom: 2px;
+    overflow: hidden;
+    margin-top: 11px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.Etsy{
+    width: 75px;
+    height: 80px;
+    font-family: "Graphik Web","Arial","Helvetica",sans-serif;
+}
+form{
+    width: 473.55;
+    height:55px;
 }
