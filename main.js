@@ -29,8 +29,8 @@ var shopName=object.Shop.shop_name;
 
 <div>
 <div class="hambox">
-<div class= "pic"><img class="ham" src ="./hamburger.png"> </div>
-<div class="pic2"><img class="ham2"src="./heart.png"></div>
+<div class= "pic"><img class="ham" src ="./images/hamburger.png"> </div>
+<div class="pic2"><img class="ham2"src="./images/heart.png"></div>
 </div>
 
        <a href="${url}"><img src= "${img_url}"></a>
