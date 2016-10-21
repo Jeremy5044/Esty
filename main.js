@@ -21,7 +21,7 @@ function renderInput (object) {
 
     <div>
     <div class="hambox">
-    <div class= "pic"><img class="ham" src ="./images/hamburger.png"> </div>
+    <a href="${url}"> <div class= "pic"><img class="ham" src ="./images/hamburger.png"></a> </div>
     <div class="pic2"><img class="ham2"src="./images/heart.png"></div>
     </div>
     <a href="${url}"><img src= "${img_url}"></a>
