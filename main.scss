@@ -266,6 +266,7 @@ text-overflow: ellipsis;
                     font-family: "Graphik Web","Arial","Helvetica",sans-serif;
                         border: solid;
                         border-color:white;
+
     /* color: whitesmoke; */
     border-color: white;
 }
@@ -343,4 +344,7 @@ float:right;
     float:right;
     border-color:white;
     &:hover{background:lightgray}
+}
+.tit{
+    font-family: "Graphik Web","Arial","Helvetica",sans-serif
 }

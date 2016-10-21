@@ -22,13 +22,11 @@ body {
 .logo {
   width: 100%;
   height: 100%;
-  background: url(/assets/dist/images/etsylogo.20160609191624.png) transparent no-repeat center center;
-  -moz-background-size: 100%;
-  background-size: 100%;
   color: #f45800;
   margin-top: 2px;
-  text-indent: -10000em;
-  overflow: hidden; }
+   font-family: "Graphik Web","Arial","Helvetica",sans-serif;
+   margin:19px;
+   }
 
 .ebox1 {
   width: 1389px;
@@ -122,17 +120,37 @@ li {
   width: 35%; }
 
 .search {
-  padding: 6px;
+  padding: 4px;
   height: 20px;
   width: 393px;
   margin: 15px;
   margin-right: -5px; }
 
 .btt {
-  line-height: 17px;
-  height: 36px;
-  padding: 7px 15px 8px;
-  background-color: #3cb1cb; }
+     line-height: 17px;
+    height: 33px;
+    width: 82px;
+    background-color: #3cb1cb;
+    border-radius: 4px;
+    border-style: solid;
+    border-width: -1px;
+    display: inline-block;
+    font-family: inherit;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 1.4;
+    padding: 8px 12px;
+    text-align: center;
+    text-decoration: none;
+    user-select: none;
+    white-space: nowrap;
+    -webkit-tap-highlight-color: transparent;
+    -webkit-appearance: none;
+    color: white;
+    font-family: "Graphik Web","Arial","Helvetica",sans-serif;
+    padding: 5px;
+    border-color: teal;
+   }
 
 div.move {
   float: right; }
@@ -191,7 +209,10 @@ img {
   margin: 28px 44px 12px;
   font-size: 13px;
   margin-right: 0px;
-  margin-left: 62px; }
+  margin-left: 58px; 
+margin-top: 61px;
+}
+
 
 .list1 {
   margin: 0px;
@@ -232,8 +253,10 @@ span.money {
   font-family: "Graphik Web","Arial","Helvetica",sans-serif;
   border: solid;
   border-color: white;
-  /* color: whitesmoke; */
-  border-color: white; }
+  border-color: white; 
+  color:black;
+}
+
 
 .shop {
   margin: 0px;
@@ -252,7 +275,14 @@ span.money {
 
 form {
   width: 473.55;
-  height: 55px; }
+  height: 55px; 
+      background: white;
+    border-bottom: solid 3px;
+    border-color: lightgrey;
+    margin-bottom: 0px;
+    height: 76px;
+
+}
 
 .cart {
   display: block;
@@ -306,3 +336,25 @@ form {
   border-color: white; }
   .ham2:hover {
     background: lightgray; }
+
+.tit {
+  font-family: "Graphik Web","Arial","Helvetica",sans-serif;
+      margin-top: 33px;
+    text-align: initial;
+    margin-left: 320px;
+}
+
+  a{
+    text-decoration: none;
+  }
+  h5{
+        margin: 0px;
+    position: absolute;
+    margin-left: 62px;
+margin-top: 36px;
+     font-family: "Graphik Web","Arial","Helvetica",sans-serif; }
+     color:#444444;
+}
+
+
+
